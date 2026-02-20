@@ -1,16 +1,16 @@
 DailyDose – Medicine Management System
 
-Team Members:-
+1. Team Members:-
 Alan Shaji 24UBC106
 Aron Sabu Abraham 24UBC117
 
 
-Problem Statement
+2. Problem Statement
 
 Managing daily medicines manually can lead to confusion, missed entries, and lack of organization. There is a need for a simple desktop-based system that allows users to securely store and manage their personal medicine details in an organized and user-specific manner.
 
 
-Objective
+3. Objective
 
 The objective of this project is to develop a desktop application that:
 Provides secure user registration and login.
@@ -20,7 +20,7 @@ Maintains user-specific data using database connectivity.
 Demonstrates the integration of GUI development and database management using Java.
 
 
-Features
+4. Features
 
 User Registration (Sign Up)
 Secure Login Authentication
@@ -30,25 +30,20 @@ Delete Medicines
 View Medicine Details
 
 
-MySQL Database Integration
 
-Simple and User-Friendly Interface
+5. Technologies Used:-
 
-
-Technologies Used:-
 Programming Language: Java
 GUI Framework: Java Swing
 Database: MySQL
 Connectivity: JDBC
-
 IDE/Editor: VS Code
-
 Driver: MySQL Connector/J
 
 Database Structure
 Database Name: dailydose
 
-Tables:
+*Tables:
 users
 id (Primary Key)
 name
@@ -63,7 +58,7 @@ dosage
 timing
 
 
-Steps to Run the Program
+6. Steps to Run the Program
 
 Install and start MySQL Server.
 Create the database dailydose.
