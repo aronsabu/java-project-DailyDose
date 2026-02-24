@@ -87,3 +87,79 @@ Update the database username and password in DBConnection.java.
 Compile all Java files.
 
 Run Main.java to start the application.
+
+
+
+Sample Inputs and Outputs / Test Cases
+
+
+Test Case 1 – User Registration (Valid Input)
+
+Input:
+Name: Alan
+Email: alanshaji@gmail.com
+Password: alan@123
+
+Action:
+Click on Register button.
+
+Expected Output:
+Message displayed: "User Registered!"
+
+
+
+Test Case 2 – Successful Login
+
+Input:
+Email: alanshaji@gmail.com
+Password: alan@123
+
+Action:
+Click on Login button.
+
+Expected Output:
+Open HomePage
+
+
+
+Test Case 3 – Add Medicine
+
+Input:
+Medicine Name: Paracetamol
+Dosage: 500mg
+Timing: Morning
+Reminder Time: 08:30
+
+Action:
+Click on Add Medicine button.
+
+Expected Output:
+Message: "Medicine Added!"
+Medicine details displayed on Home Page.
+
+
+
+Test Case 4 – Delete Medicine
+
+Input:
+Medicine Name: Paracetamol
+
+Action:
+Click on Remove Medicine button.
+
+Expected Output:
+Message: "Medicine Removed!"
+Medicine no longer appears on Home Page.
+
+
+
+Test Case 5 – Reminder Notification
+
+Input:
+Reminder Time set to current system time (HH:MM).
+
+Action:
+System time matches stored reminder time.
+
+Expected Output:
+Popup notification appears.
